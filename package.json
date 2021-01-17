@@ -1,0 +1,38 @@
+{
+  "name": "format-string-to-html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-file dist/index.js --extensions '.ts'",
+    "lint": "tsc && eslint . --ext .ts"
+  },
+  "author": "Mark Mead",
+  "license": "MIT",
+  "keywords": [
+    "browser cursor",
+    "custom cursor",
+    "customise cursor",
+    "customisable cursor",
+    "javascript cursor",
+    "typescript cursor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markmead/format-html-string.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "^7.12.1",
+    "@babel/plugin-transform-classes": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-typescript": "^7.12.7",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
+    "babel-preset-minify": "^0.5.1",
+    "eslint": "^7.17.0",
+    "typescript": "^4.1.3"
+  }
+}
