@@ -17,7 +17,7 @@ export default class PrettyHTML implements IPrettyHTML {
 
     if (this.htmlString) {
       this.htmlString = this.htmlString.replace(commentRegex, "");
-      
+
       const htmlArray = this.htmlString.split(/>\s*</);
 
       for (const htmlElement of htmlArray) {
